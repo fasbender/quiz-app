@@ -1,0 +1,16 @@
+.footer-container{
+    background: #560bad;
+    padding: 2%;
+}
+.footer-container a{
+    text-decoration: none;
+    color: cyan;
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-container a{
+        font-size: large;
+    }
+}

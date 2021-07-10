@@ -1,0 +1,42 @@
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-family: 'Abril Fatface', monospace;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.quiz-info{
+    width: 100%;
+}
+.current-score{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+    color: cornsilk;
+    font-family: 'Zen Tokyo Zoo', monospace;
+    font-weight: 500;
+    font-size: larger;
+}
+
+@media screen and (max-width: 600px) {
+    .hi{
+        font-size: 1.8rem;
+    }
+    .current-score{
+        margin: 0 6% 0 6%;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .hi{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 280px) {
+    .hi{
+        font-size: 1.3rem;
+    }
+}
