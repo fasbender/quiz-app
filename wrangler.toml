@@ -1,0 +1,10 @@
+name = "quiz-app"
+type = 'webpack'
+account_id = 'c98c82a7071cbf691d7a16a5b20e8313'
+route = ''
+zone_id = ''
+usage_model = ''
+workers_dev = true
+target_type = "webpack"
+bucket = "./build"
+site = {bucket = "",entry-point = "workers-site"}
